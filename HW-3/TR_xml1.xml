@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+  <book>
+    <Name>Crimea Island</Name>
+	<Author>Vasiliy Aksenov</Author>
+	<Genre>fantasy novel</Genre>
+	<Published></Published>
+	<Language>Russian</Language>
+	<Pages>339</Pages>
+  </book>
+  <book>
+    <Name>The Agony and the Ecstasy</Name>
+	<Author>Irving Stone</Author>
+	<Genre>Biographical novel</Genre>
+	<Published>2010</Published>
+	<Language>Russian</Language>
+	<Pages>957</Pages>
+  </book>
+  <book>
+    <Name>One Flew over the Cuckoo's Nest</Name>
+	<Author>Ken Kesey</Author>
+	<Genre>Novel</Genre>
+	<Published>2003</Published>
+	<Language></Language>
+	<Pages>325</Pages>
+  </book>
+  <book>
+    <Name>Digital Fortress</Name>
+	<Author>Dan Brown</Author>
+	<Genre>Detective novel</Genre>
+	<Published>2005</Published>
+	<Language>Russian</Language>
+	<Pages>480</Pages>
+  </book>
+  <book>
+    <Name>The Power Broker</Name>
+	<Author>Robert Caro</Author>
+	<Genre>Biographical novel</Genre>
+	<Published>1974</Published>
+	<Language>English</Language>
+	<Pages>1336</Pages>
+  </book>
+</books>

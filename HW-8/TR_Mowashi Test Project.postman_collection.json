@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "7129dd64-543c-49e1-868f-f61cbacf5622",
+		"name": "Mowashi Test Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"account\":\"aaabbbccc\", \"username\":\"abc@abc.abc\", \"password\":\"123456\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://development.mawashi.tools:8080/api/rest/v1.0/auth/signup",
+					"protocol": "http",
+					"host": [
+						"development",
+						"mawashi",
+						"tools"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1.0",
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"account\":\"aaabbbccc\", \"username\":\"abc@abc.abc\", \"password\":\"123456\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://development.mawashi.tools:8080/api/rest/v1.0/auth/signin",
+					"protocol": "http",
+					"host": [
+						"development",
+						"mawashi",
+						"tools"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1.0",
+						"auth",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNiIsImlhdCI6MTYwMTQ5Mjk0NywiZXhwIjoxNjAyMDk3NzQ3fQ.DaFpXFiC7oLcO2vlktblm60r2LXut-HSpbF_vZU_NltS-hnsR0ghk6NIUrnbOY1tQO00Z-Mgi3XujiOIQinE3g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://development.mawashi.tools:8080/api/rest/v1.0/",
+					"protocol": "http",
+					"host": [
+						"development",
+						"mawashi",
+						"tools"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"v1.0",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

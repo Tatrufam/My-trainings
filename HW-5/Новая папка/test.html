@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8" />
+<title>table insert/row-cell</title>
+<script type="text/javascript">
+  function addMoreRows() {
+    var user = document.getElementById('user_id').value;
+    var scores = document.getElementById("score_id").value;
+    var points = document.getElementById("point_id").value;
+    var table = document.getElementById('tbl_id');
+
+    var row = table.insertRow();
+
+    var userName = row.insertCell(0);
+    var score = row.insertCell(1);
+    var point = row.insertCell(2);
+    
+
+    userName.innerHTML = user;
+    score.innerHTML = scores;
+    point.innerHTML = points;
+        
+  }
+</script>
+</head>
+
+<body>
+<form align="center" method="GET">
+      <input type="text" name="users" id="user_id"><br>
+      <input type="text" name="scores" id="score_id"><br>
+      <input type="text" name="points" id="point_id"><br>
+      <input type="button" id="mysubmit" value="Submit" onClick="addMoreRows()">
+</form>
+
+<table id="tbl_id" style="text-align:center" align="center" valign="top">
+      <thead>
+        <tr>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+</table>
+</body>
+</html>

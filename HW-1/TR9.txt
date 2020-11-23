@@ -1,0 +1,17 @@
+File details are not desplayed in the File Log.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+File Log contains file details like type, size, date etc.
+
+
+Actual Result:
+The File Log contains only the names of files and checkboxes for them.
+
+Priority: P2.
+
+Severity: minor.
+
+Screen: 

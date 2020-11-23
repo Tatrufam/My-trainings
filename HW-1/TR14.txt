@@ -1,0 +1,17 @@
+The hidden file named ".htaccess" is displayed in the File Log.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+In default mode the file named ".htaccess" must be hidden in the File Log.
+
+
+Actual Result:
+The hidden file named ".htaccess" is displayed in the File Log.
+
+Priority: P2.
+
+Severity: high.
+
+Screen: 

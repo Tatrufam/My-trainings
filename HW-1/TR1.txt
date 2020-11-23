@@ -1,0 +1,17 @@
+The Delete and The New Folder titles are misplaced on the main panel.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+The 2nd button (folder icon) has title "New Folder" and the 5th button (cross icon) has title "Delete".
+
+Actual Result:
+The buttons are misplaced.
+
+Priority: P2.
+
+Severity: minor.
+
+Screen: 
+   

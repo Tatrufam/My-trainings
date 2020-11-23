@@ -1,0 +1,6 @@
+дает статус 302:
+curl -v -k https://jira.hillel.it/login.jsp -X POST -d "os_username=tatrufam&os_password=Tatikosha80&os_destination=&user_role=&atl_token=&login=Log+In" -H "Content-Type: application/x-www-form-urlencoded"
+
+дает статус 200 , но при этом отражается имя пользователя:
+curl -v -k https://jira.hillel.it/login.jsp -X POST -d "os_username=tatrufam&os_password=Tatikosha80" -H "Content-Type: application/x-www-form-urlencoded"
+

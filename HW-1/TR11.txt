@@ -1,0 +1,17 @@
+The File names are not right-aligned in the File Log.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+The File names are right-aligned in the column "Name" in the File Log
+
+
+Actual Result:
+The File names are not right-aligned in the column "Name" in the File Log. The distance between the border of the column and the begining of the name differs.
+
+Priority: P3.
+
+Severity: trivial.
+
+Screen: screen1.png

@@ -1,0 +1,17 @@
+Action Buttons (Roll Up, Open and Close) are absent on the top right of the Main Panel.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+Action Buttons (Roll Up, Open and Close) are located on the top right of the Main Panel.
+
+
+Actual Result:
+Action Buttons which help to roll Up, open and close the screen are located on the top right of the Main Panel of the screen.
+
+Priority: P2.
+
+Severity: high.
+
+Screen: 

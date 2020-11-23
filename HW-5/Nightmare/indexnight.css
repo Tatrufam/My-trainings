@@ -1,0 +1,16 @@
+legend {
+    text-decoration: underline;}
+
+table, td, th {
+    border: 1px solid black;
+    font-size: large ;}
+    
+table th {
+    background-color: lavenderblush;}
+
+table td {
+    text-align : center;}
+
+table > tbody > tr> td:nth-child(1) {
+    background-color: lavenderblush;
+    text-align: left;}

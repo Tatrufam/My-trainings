@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+  <book Author="Vasiliy Aksenov" Genre="fantasy novel" Published="" Language="Russian" Pages="339">Crimea Island</book>
+  <book Author="Irving Stone" Genre="Biographical novel" Published="2010" Language="Russian" Pages="957">The Agony and the Ecstasy</book>
+  <book Author="Ken Kesey" Genre="Novel" Published="2003" Language="" Pages="325">One Flew over the Cuckoo's Nest</book>
+  <book Author="Dan Brown" Genre="Detective novel" Published="2005" Language="Russian" Pages="480">Digital Fortress</book>
+  <book Author="Robert Caro" Genre="Biographical novel" Published="1974" Language="English" Pages="1336">The Power Broker</book>
+</books>

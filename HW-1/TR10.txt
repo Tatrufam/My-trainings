@@ -1,0 +1,17 @@
+The row selection cells are not centered as row content in the File Log.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+The row selection cells (to the right of the rows in the File Log) are at the same level with their rows.
+
+
+Actual Result:
+The row selection cells (to the right of the rows in the File Log) are a bit higher than the row content.
+
+Priority: P3.
+
+Severity: trivial.
+
+Screen: 

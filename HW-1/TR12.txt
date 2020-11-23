@@ -1,0 +1,17 @@
+Different row height in the File Log.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+Given the same font size and type, line heights in the File Log should be the same.
+
+
+Actual Result:
+Different row height in the File Log. Especially it highlights the background of the File Log table.
+
+Priority: P3.
+
+Severity: trivial.
+
+Screen: 

@@ -1,0 +1,16 @@
+The Main Menu is absent from the Screen
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+The Main Menu is located at the top of the screen on the Main Panel
+
+Actual Result:
+The Main Menu is absent from the Main Panel or any other part of the screen
+
+Priority: p1 
+
+Severity: high
+
+Screen: 

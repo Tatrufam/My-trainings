@@ -1,0 +1,16 @@
+The Status bar is not displayed at the botoom of the screen.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+The Status Bar is located in the bottom of the screen under the File Log. 
+
+Actual Result:
+The Status bar is absent on the screen.
+
+Priority: P3.
+
+Severity: minor.
+
+Screen: 

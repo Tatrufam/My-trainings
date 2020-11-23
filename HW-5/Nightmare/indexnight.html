@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>My Nightmare</title>
+        <link rel = "stylesheet" href="indexnight.css">
+        <script src = "indexnight.js"></script>
+    </head>
+    <body>
+
+        <form  action="" id="add_books" method="post" onsubmit="addRow();return false;">
+            <legend><b>Добавить книгу:</b></legend>
+                <p>
+                    <label for="book"><b>Наименование:</b></label>
+                    <input type="text" name="book" id="book" value="" size="20" tabindex="1"></br>
+                    
+                    <label for="author"><b>Автор:</b></label>
+                    <input type="text" name="author" id="author" value="" size="20" tabindex="2"></br>
+                    
+                    <label for="published"><b>Год выпуска:</b></label>
+                    <input type="text" name="published" id="published" value="" size="10" tabindex="3"></br>
+                    
+                    <label for="subm"></label>
+                    <input type="submit" name="subm" class="submit" value="Добавить" tabindex="4">
+                </p>
+        </form>
+        <table  rules= "cols" cellpadding="2px" id="tab1" class="sortable">
+            <thead>
+                <tr>
+                    <th>Наименование</th>
+                    <th>Автор</th>
+                    <th>Год выпуска</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </body>
+</html>

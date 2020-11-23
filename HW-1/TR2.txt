@@ -1,0 +1,16 @@
+The "Rename" Button is duplicated on the Main Panel.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+Only one "Rename" button indicated on the Main Panel.
+
+Actual Result:
+The 6th and the 8th buttons are duplicated.
+
+Priority: P3
+
+Severity: minor
+
+Screen: 

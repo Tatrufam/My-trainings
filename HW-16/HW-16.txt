@@ -1,0 +1,43 @@
+1 - ПОИСК GOOGLE.COM.UA
+
+div.a4bIc > input
+
+//*[@class='a4bIc']/input
+
+
+2 - ИКОНКА ПРОФИЛЯ В LMS HILLEL
+
+//div[@class='user-photo-message']
+
+div .user-photo-message
+
+
+3 - СПИСОК ВСЕХ СТУДЕНТОВ В ПРИЛОЖЕНИИ СТУДЕНТЫ
+
+ul[id='user-list']
+
+#user-list
+
+//*[@id="user-list"]
+
+
+4 - ПОЛЯ NAME И PHONE ПРИ СОЗДАНИИ В ПРИЛОЖЕНИИ СТУДЕНТЫ
+
+#icon_prefix
+
+//*[@id='icon_prefix']
+
+#icon_telephone
+
+//*[@id='icon_telephone']
+
+
+5 - ПОЛЯ USERNAME И PASSWORD ПРИ ЛОГИНЕ В JIRA
+
+#login-form-username
+
+//*[@id="login-form-username"]
+
+#login-form-password
+
+//*[@id="login-form-password"]

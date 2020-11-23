@@ -1,0 +1,16 @@
+The Address Bar is absent on the screen.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+The Address Bar is located above or under the File Log.
+
+Actual Result:
+The Address Bar is absent on the screen.
+
+Priority: P2.
+
+Severity: high.
+
+Screen: 

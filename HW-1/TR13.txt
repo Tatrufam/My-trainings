@@ -1,0 +1,17 @@
+The order of displaying / sorting files is broken in the File Log.
+
+Steps to reproduce:
+   1. Open The File Manager
+   
+Expected result:
+The File named "_vti_inf.html" must be listed right after the file named ".htaccess" in the File Log.
+
+
+Actual Result:
+The File named "_vti_inf.html" is listed after the file named "404.shtml" in tha File Log. 
+
+Priority: P2.
+
+Severity: minor.
+
+Screen: 

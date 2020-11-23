@@ -1,0 +1,47 @@
+{
+  "Books":[
+    {
+	  "Name": "Crimea Island",
+	  "Author": "Vasiliy Aksenov",
+	  "Genre": "fantasy novel",
+	  "Published": "",
+	  "Language": "Russian",
+	  "Pages": 339 
+	},
+	{
+	  "Name": "The Agony and the Ecstasy",
+	  "Author": "Irving Stone",
+	  "Genre": "Biographical novel",
+	  "Published": "2010",
+	  "Language": "Russian",
+	  "Pages": 957 
+	},
+	{
+	  "Name": "One Flew over the Cuckoo's Nest",
+	  "Author": "Ken Kesey",
+	  "Genre": "Novel",
+	  "Published": "2003",
+	  "Language": "",
+	  "Pages": 325  
+	},
+	{
+	  "Name": "Digital Fortress",
+	  "Author": "Dan Brown",
+	  "Genre": "Detective novel",
+	  "Published": "2005",
+	  "Language": "Russian",
+	  "Pages": 480 
+	},
+	{
+	  "Name": "The Power Broker",
+	  "Author": "Robert Caro",
+	  "Genre": "Biographical novel",
+	  "Published": "1974",
+	  "Language": "English",
+	  "Pages": 1336 
+	}
+  ]
+}
+
+
+
